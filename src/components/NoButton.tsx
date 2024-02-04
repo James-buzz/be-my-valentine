@@ -15,7 +15,7 @@ const NoButton: React.FC<NoButtonProps> = ({ onClick }) => {
 
   return (
     <button
-      className="ml-2 px-2 py-1 text-2xl border-black border-4 rounded-xl font-black hover:bg-black hover:text-white"
+      className="px-2 py-1 text-2xl border-black border-4 rounded-xl font-black hover:bg-black hover:text-white"
       onClick={handleClick}
     >
       {buttonMessages[messageIndex]}

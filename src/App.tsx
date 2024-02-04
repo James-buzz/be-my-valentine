@@ -34,10 +34,10 @@ function App() {
             src="./images/valentine.gif"
             alt="Heart"
           />
-          <h1 className="text-4xl font-bold text-black mt-6">
+          <h1 className="text-4xl font-bold text-black mt-6 text-center">
             Will you be my Valentine?
           </h1>
-          <div className="mt-6 text-center">
+          <div className="mt-6 text-center flex justify-center gap-2 items-center">
             <YesButton
               buttonPadding={buttonPadding}
               buttonFontSize={buttonFontSize}
