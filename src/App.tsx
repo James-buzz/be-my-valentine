@@ -24,7 +24,7 @@ function App() {
     <div className="h-screen bg-white flex flex-col justify-center items-center p-4">
       {yes ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img src="./images/kisses.gif" />
           <h1 className="text-4xl font-bold text-black mt-6">Yayy!!!</h1>
         </>
       ) : (
